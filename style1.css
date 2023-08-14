@@ -1,0 +1,21 @@
+div,
+span {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+div {
+  background-color: red;
+  display: inline-block;
+}
+/* 
+inline: contents 자체만을 꾸며줌, width height 개무시, 물건의 크기에 맞춰짐
+inline: 한 줄에 다 넣는데 블럭단위로 상자로 변환되어서 안의 contents의 사이즈에 상관 없이 지정된 width, height에 맞춰서 표기
+block: 상자는 상자지만 한줄에 하나 표기
+
+*/
+span {
+  background-color: blue;
+  display: block;
+}
